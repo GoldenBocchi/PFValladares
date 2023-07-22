@@ -1,0 +1,24 @@
+.left p {
+  color: #fff;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.texto {
+  border-right: 5px solid;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 5s steps(17) infinite, cursor 0.5s step-end infinite alternate;
+}
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}/*# sourceMappingURL=main.css.map */
